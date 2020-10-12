@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/cupertino.dart';
@@ -22,7 +20,7 @@ class SeeContactsButton extends StatelessWidget {
               builder: (BuildContext context) => CupertinoAlertDialog(
                 title: Text('Permissions error'),
                 content: Text('Please enable contacts access '
-                    'permission in system settings'),
+                    'permission in system settings (Settings > Privacy > Contacts)'),
                 actions: <Widget>[
                   CupertinoDialogAction(
                     child: Text('OK'),

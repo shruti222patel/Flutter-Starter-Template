@@ -19,6 +19,9 @@ A starter template for flutter based phone apps.
 4. `flutter run` to build and run the app.
     - Type `0` to run the android simulator.
     - Type `1` to run the iPhone simulator.
+    - If running you've switched physical testing phones and flutter isn't picking up the new one, run:
+        - `rm -rf bin/cache; flutter doctor -v`
+        - You can also run `flutter devices` to view the list of available devices
 
 ## Getting Started
 
