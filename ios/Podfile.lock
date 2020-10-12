@@ -1,5 +1,5 @@
 PODS:
-  - contacts_service (0.2.1):
+  - contacts_service (0.2.2):
     - Flutter
   - Flutter (1.0.0)
   - "permission_handler (5.0.1+1)":
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
-  contacts_service: d212985196c101372bb55c42f41dae7be59ab811
+  contacts_service: 849e1f84281804c8bfbec1b4c3eedcb23c5d3eca
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
 
